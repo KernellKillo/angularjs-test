@@ -10,6 +10,7 @@
     <h2>Lista de deberes</h2>
     <div ng-controller="TodoListController as todoList">
       <div class="wrapper">
+        <h2>Todo</h2>
         <span>{{todoList.remaining()}} of {{todoList.todos.length}} remaining</span>
         [ <a href="" ng-click="todoList.archive()">archive</a> ]
         <ul class="unstyled">

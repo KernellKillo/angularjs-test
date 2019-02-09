@@ -4,11 +4,14 @@ body {
 
 .done-true {
   text-decoration: line-through;
-  color: grey;
+  color: red;
 }
 
 .wrapper {
   background-color: lightgreen;
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px;
 }
 
 
